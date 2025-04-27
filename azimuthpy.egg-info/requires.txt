@@ -1,4 +1,0 @@
-anndata
-numpy
-pandas
-rpy2
