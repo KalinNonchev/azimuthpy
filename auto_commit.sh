@@ -1,4 +1,4 @@
-find .|grep ".ipynb_checkpoints"|xargs rm -rf
+find .|grep ".ipynb_checkpoints|__pycache__"|xargs rm -rf
 git pull
 git add .
 git commit -m 'update'
