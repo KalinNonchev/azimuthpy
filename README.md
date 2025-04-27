@@ -6,7 +6,7 @@
 ---
 
 `azimuthpy` is a lightweight Python package that enables seamless integration with the [Azimuth](https://azimuth.hubmapconsortium.org/) reference mapping framework using [rpy2](https://rpy2.github.io/).  
-It allows you to map single-cell RNA-seq datasets (in Python `AnnData` format) to Azimuth references **without leaving Python**.
+It lets you map single-cell RNA-seq datasets (in Python `AnnData` format) to Azimuth references **in Python**.
 
 - Supports direct `AnnData` ➔ `Seurat` conversion
 - Pulls predictions and annotations back into `AnnData.obs`
