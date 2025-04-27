@@ -1,0 +1,17 @@
+name: azimuthpy_conda
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10          # or 3.9/3.8 if you prefer
+  - anndata
+  - pandas
+  - numpy
+  - r-base>=4.2          # make sure it matches your system's R
+  - r-seurat
+  - r-azimuth            # sometimes azimuth is not on conda, see note below
+  - rpy2
+  - pip
+  - pip:
+      - scanpy           # optional, if you work with AnnData a lot
